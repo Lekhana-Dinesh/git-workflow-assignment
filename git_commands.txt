@@ -1,0 +1,112 @@
+Git Commands Used in the Assignment
+
+1. git init -b main
+   Initialized a local Git repository with main as its branch.
+
+2. git status
+   Checked whether files were modified, staged, or untracked.
+
+3. git add index.html about.html
+   Added both HTML files to the staging area.
+
+4. git commit -m "Initial commit with HTML files"
+   Saved the first version of the project.
+
+5. git diff
+   Displayed the changes made before committing.
+
+6. git add index.html
+   Staged the changes made to index.html.
+
+7. git commit -m "Updated home page content"
+   Saved the changes to the home page.
+
+8. git branch feature
+   Created a separate branch named feature.
+
+9. git switch feature
+   Switched to the feature branch to make changes.
+
+10. git add about.html
+    Staged the modified about.html file.
+
+11. git commit -m "Added Git description to about page"
+    Committed the changes on the feature branch.
+
+12. git switch main
+    Switched back to the main branch.
+
+13. git merge --no-ff feature -m "Merge feature branch into main"
+    Merged the feature branch into main.
+
+14. git log --oneline --graph --all --decorate
+    Displayed the commit history and branch graph.
+
+15. git check-ignore -v debug.log temp/notes.txt
+    Checked whether Git ignored the sample files.
+
+16. git add .gitignore
+    Staged the .gitignore file.
+
+17. git commit -m "Added gitignore file"
+    Saved the ignore rules in the repository.
+
+18. git commit -m "Added temporary content"
+    Created an additional commit to test the undo operation.
+
+19. git revert --no-edit HEAD
+    Reversed the temporary commit without removing its history.
+
+20. git show --stat HEAD
+    Displayed details of the revert commit.
+
+21. git remote add origin https://github.com/Lekhana-Dinesh/git-workflow-assignment.git
+    Connected my local Git repository to my public GitHub repository.
+
+22. git remote -v
+    Checked the configured remote repository.
+
+23. git push -u origin main
+    Pushed the main branch to GitHub.
+
+24. git push origin feature
+    Pushed the feature branch to GitHub.
+
+25. git --version
+    Displayed the installed Git version.
+
+26. git config user.name
+    Checked the Git username configured for commits.
+
+27. git config user.email
+    Checked the Git email address configured for commits.
+
+28. git branch
+    Displayed the local branches and highlighted the current branch.
+
+29. git log --oneline
+    Displayed the commit history in a short format.
+
+30. git log --oneline --decorate -3
+    Displayed the latest three commits with branch information.
+
+31. git status --short
+    Displayed the working directory status in a short format.
+
+32. git log -1 --oneline
+    Displayed the latest commit in a short format.
+
+33. git log -2 --oneline
+    Displayed the latest two commits.
+
+34. git log -4 --oneline
+    Displayed the latest four commits to verify the undo operation.
+
+35. git add git_commands.txt
+    Staged the Git command documentation file.
+
+36. git commit -m "Added Git commands documentation"
+    Committed the command documentation to the repository.
+
+37. git push origin main
+    Uploaded the latest commit to the GitHub main branch.
